@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rishitha Nidiganti's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/be6d9fdd26.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="menu-bar">
+            <div class="container">
+              <ul class="menu">
+                <li>
+                  <a href="#" onclick="showSection('profile')">Home</a>
+                </li>
+                <!--Sections dropdown -->
+                <li class="submenu">
+                  <a href="#">Portfolio</a>
+                  <ul class="dropdown">
+                    <li><a href="#" onclick="showSection('education')">Education</a></li>
+                    <li><a href="#" onclick="showSection('work')">Experience</a></li>
+                    <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>          
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="left-section">
+                <div class="profile-pic">
+                    <img src="profile/11.svg" alt="Rishitha Nidiganti" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+                </div>
+                <div class="contacts">
+                    <a href="https://www.linkedin.com/in/rishitha-nidiganti-221192376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                    <a href="mailto:sonun9605@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope fa-lg"></i></a>
+                    <a href="tel:+916309265726" aria-label="Phone"><i class="fa-solid fa-phone fa-lg"></i></a>
+                </div>
+            </div>
+            <div class="right-section">
+              <div class="intro-text">
+                <p>H<span id="typing-text"></span></p>
+                <h1>Rishitha Nidiganti</h1>
+              </div>
+              <div class="profile-card">
+                <p class="summary">
+                    Aspiring marketing professional with experience in human resources and marketing internships. Skilled in developing and implementing marketing strategies, managing social media accounts, and conducting market research. Proficient in Power BI and Excel, with strong communication, collaboration, and leadership skills.
+                </p>
+              </div>
+            </div>
+        </section>
+
+        <section id="education" class="hidden">
+            <h2 class="section-title">Education</h2>
+            <div class="content-container" id="education-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023-Present</div>
+                        <div class="timeline-content">
+                            <h3>PGDM</h3>
+                            <span class="school">IIBS</span>
+                            <p class="field">Marketing & Supply Chain, Logistics</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2019-2022</div>
+                        <div class="timeline-content">
+                            <h3>B.Com(h)</h3>
+                            <span class="school">GITAM Deemed to be University</span>
+                            <p class="field">Business and Accounting</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2017-2019</div>
+                        <div class="timeline-content">
+                            <h3>Class XII</h3>
+                            <span class="school">NRI Jr College</span>
+                            <p class="field">MPC</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2016-2017</div>
+                        <div class="timeline-content">
+                            <h3>Class X</h3>
+                            <span class="school">Sri Sai Concept School</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="hidden">
+            <h2>Work Experience</h2>
+            <div class="content-container" id="experience-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Dec 2023 - Feb 2024</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Human Resource Intern</h3>
+                            <span class="institution">STARFING</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Assisted in job postings on various platforms, screened resumes and shortlisted candidates.</li>
+                                    <li>Scheduled and coordinated interviews, ensured new hires received necessary documents and training materials.</li>
+                                    <li>Helped plan and execute employee engagement activities, organized events and team-building activities.</li>
+                                    <li>Coordinated training sessions and workshops, assisted in preparing training materials and scheduling sessions.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Aug 2024 - Sept 2024</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Marketing Intern</h3>
+                            <span class="institution">CORIZO</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Assisted in developing and implementing market campaigns to increase brand awareness.</li>
+                                    <li>Designed marketing materials, presentations, and promotional content.</li>
+                                    <li>Collaborated with other teams to generate leads and improve customer engagement.</li>
+                                    <li>Managed social media accounts, created engaging content, and monitored audience engagement.</li>
+                                    <li>Collaborated with sales team to develop lead generation strategies and nurture prospects.</li>
+                                    <li>Assisted in event planning like webinars, Zoom, and Google meetings.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Sept 2024 - Nov 2024</div>
+                        <div class="timeline-content">
+                            <h3 class="position">Marketing Intern</h3>
+                            <span class="institution">ACS</span>
+                            <div class="description-container">
+                                <ul class="description-list">
+                                    <li>Trained in developing and implementing marketing strategies to promote financial and insurance services.</li>
+                                    <li>Conducted market research to identify potential clients and target demographics.</li>
+                                    <li>Generated and qualified insurance leads through cold calling, email outreach, and personal interactions.</li>
+                                    <li>Supported in organizing webinars, financial awareness campaigns, and client engagement initiatives.</li>
+                                    <li>Maintained detailed records of leads and follow-ups.</li>
+                                    <li>Achieved and exceeded individual insurance targets.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="hidden">
+            <h2>Technical Skills</h2>
+            <div id="technical-skills-container" class="skills-grid">
+                <div class="skill-item">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Power BI</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-table"></i>
+                    <span>Excel</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="theme-toggle" onclick="toggleTheme()"><i class="fa-solid fa-moon fa-lg"></i></button>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            body.classList.toggle('dark');
+
+            const button = document.querySelector('.theme-toggle');
+            button.innerHTML = body.classList.contains('dark')
+                ? '<i class="fa-solid fa-sun fa-lg"></i>'
+                : '<i class="fa-solid fa-moon fa-lg"></i>';
+        }
+
+        function showSection(id) {
+            document.querySelectorAll('main section').forEach(s => s.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        // Default section on page load
+        showSection('profile');
+        const text = "ello, I'm";
+        const typingText = document.getElementById('typing-text');
+        let index = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+            if (isDeleting) {
+                typingText.innerText = text.substring(0, index--);
+            } else {
+                typingText.innerText = text.substring(0, index++);
+            }
+            let speed = isDeleting ? 75 : 150;
+            if (!isDeleting && index === text.length + 1) {
+                speed = 1200; // Pause at full text before deleting
+                isDeleting = true;
+            } else if (isDeleting && index === 0) {
+                isDeleting = false;
+                speed = 500; // Pause before typing again
+            }
+            setTimeout(typeEffect, speed);
+        }
+        typeEffect();
+
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                document.querySelectorAll('.timeline-item.active').forEach(activeItem => {
+                    if (activeItem !== this) {
+                        activeItem.classList.remove('active');
+                    }
+                });
+                this.classList.add('active');
+            });
+
+            item.addEventListener('click', function () {
+                document.querySelectorAll('.timeline-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
